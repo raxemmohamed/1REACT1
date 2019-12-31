@@ -4,7 +4,8 @@
   "description": "shopping list made with MERN stack",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "author": "Raxem Mohamed",
   "license": "MIT",
