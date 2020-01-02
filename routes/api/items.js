@@ -7,7 +7,7 @@ const Item = require('../../models/Item');
 //@route POST api/items
 //@desc create a post
 //@access public
-router.post('/', (req, res) => {
+router.get('/', (req, res) => {
     const newItem = new Item({
         name: req.body.name
     });
